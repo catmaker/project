@@ -1,0 +1,155 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: grey;
+  font-family: "Bold";
+  color: hsl(224, 30%, 27%);
+}
+.grey {
+  color: grey;
+  opacity: 0.7;
+}
+.black {
+  color: black;
+}
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+.wrapper-contents {
+  display: grid;
+  place-items: center;
+  min-height: 100dvh;
+}
+.contents {
+  width: 70rem;
+  height: 45rem;
+  font-size: 2rem;
+  border-radius: 1rem;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 3rem;
+}
+.content-left {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 3rem;
+  text-align: center;
+}
+.content-right {
+  text-align: left;
+  margin-left: 30px;
+}
+.content-left p {
+  margin-top: 35px;
+  font-size: 20px;
+}
+.content-right p {
+  margin-top: 35px;
+  font-size: 20px;
+}
+.content-right {
+  border-radius: 3rem;
+  color: black;
+}
+.circle {
+  margin: 0 auto;
+  width: 140px;
+  height: 140px;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  border-radius: 50%;
+}
+.circle p {
+  margin: 0;
+}
+.text {
+  color: white;
+}
+.text > p:nth-child(1) {
+  font-size: 30px;
+  margin-top: 50px;
+}
+.text > p:nth-child(2) {
+  color: grey;
+  font-size: 15px;
+}
+.circle > p:nth-child(1) {
+  color: white;
+  display: inline-block;
+  margin-top: 24px;
+  font-size: 50px;
+}
+.circle > p:nth-child(2) {
+  color: grey;
+  font-size: 14px;
+}
+.score-box {
+  margin-top: 10px;
+  margin-left: -5px;
+  margin-bottom: 15px;
+  align-items: center;
+  width: 300px;
+  height: 55px;
+  background-color: hsl(0, 100%, 67%, 0.15);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.flex-box {
+  margin-left: 20px;
+}
+.flex-box-score {
+  margin-right: 20px;
+}
+.score-box-container > div:nth-child(1) {
+  color: hsl(0, 100%, 67%);
+}
+.score-box-container > div:nth-child(2) {
+  color: hsl(39, 100%, 56%);
+}
+.score-box-container > div:nth-child(3) {
+  color: hsl(166, 100%, 37%);
+}
+.score-box-container > div:nth-child(4) {
+  color: hsl(234, 85%, 45%);
+}
+.img {
+  margin-top: 5px;
+}
+.summary-name {
+  margin-left: -100px;
+  font-size: 18px;
+}
+.button {
+  width: 250px;
+  height: 55px;
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  margin-left: 15px;
+  border-radius: 30px;
+  margin-top: 30px;
+
+  line-height: 55px;
+  text-align: center;
+}
+.button:hover {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+@font-face {
+  font-family: "fonts";
+  src: url("../fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Bold";
+  src: url("../fonts/static/HankenGrotesk-Bold.ttf");
+}
+@font-face {
+  font-family: "ExtraBold";
+  src: url("../fonts/static/HankenGrotesk-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Medium";
+  src: url("../fonts/static/HankenGrotesk-Medium.ttf");
+}
